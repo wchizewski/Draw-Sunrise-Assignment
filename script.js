@@ -13,6 +13,3 @@ let cloudImg = document.getElementById("cloudImg")
 ctx.fillStyle = "blue";
 ctx.fillRect(0, 0, 400, 300);
 
-// Draw grass
-ctx.fillStyle = "green";
-ctx.fillRect = (0, 0, 400, 100);
