@@ -13,3 +13,16 @@ let cloudImg = document.getElementById("cloudImg")
 ctx.fillStyle = "blue";
 ctx.fillRect(0, 0, 400, 300);
 
+// Draw ground
+ctx.fillStyle = "green";
+ctx.fillRect(0, 300, 400, 100);
+
+// Draw red half sun
+ctx.fillStyle= "red";
+ctx.beginPath();
+ctx.arc(200, 300, 23, 0, Math.PI, true);
+ctx.fill();
+
+// Draw cloud images
+ctx.drawImage(cloudImg, 140, 105)
+ctx.drawImage(cloudImg, 175, 90)
