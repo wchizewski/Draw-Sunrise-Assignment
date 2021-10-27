@@ -41,8 +41,8 @@ function loop() {
     // Update Variables
 
     if (sunGreen < 255) {
-        cloud1X--;
-        cloud2X++;
+        cloud1X -= 0.95;
+        cloud2X += 0.9;
         sunY1 -= 0.7;
         sunSize += 0.25
         sunGreen++;
